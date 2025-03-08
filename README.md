@@ -2,24 +2,35 @@
 
 This is a **machine learning-powered SMS Spam Classifier** that detects whether a message is **Spam or Not Spam** using **Natural Language Processing (NLP)**.
 
-## 🚀 Live Demo
-[🔗 View the deployed app on Render](https://your-render-app-url.com) *(Replace with actual URL after deployment)*
-
 ---
 
 ## 📂 Project Structure
 ```plaintext
 sms-spam-classifier/
 │
+└── images/           # Folder for result images
+    ├── Home.png
+    ├── Not_Spam.png
+    ├── Span.png
 ├── app.py             # Main Streamlit application
 ├── model.pkl         # Trained Naive Bayes model
 ├── vectorizer.pkl    # TF-IDF vectorizer
 ├── requirements.txt  # Python dependencies
 ├── README.md         # Project documentation
-└── images/           # (Optional) Folder for result images
-    ├── spam_example.png
-    ├── not_spam_example.png
+
 ```
+
+---
+
+## 💪 Screenshots
+### Home Page
+![Home](Images/Home.png)
+
+### Not Spam Example
+![Not Spam](Images/Not_Spam.png)
+
+### Spam Example
+![Spam](Images/Span.png)
 
 ---
 
@@ -105,7 +116,7 @@ streamlit run app.py
 
 ---
 
-## 💡 Example Spam Messages
+## 👉 Example Spam Messages
 ```plaintext
 "Congratulations! You won a free iPhone. Click here to claim now!"
 "URGENT! Your bank account has been locked. Verify now!"
@@ -114,20 +125,11 @@ streamlit run app.py
 
 ---
 
-## 📜 License
+## 🐝 License
 This project is open-source and available under the **MIT License**.
 
 ---
 
-## 👨‍💻 Developed by Your Name
-🌟 If you like this project, consider giving it a ⭐ on GitHub!
 
----
 
-### 🔹 **Next Steps**
-- **Replace** `your-username` with your GitHub username.
-- **Replace** `https://your-render-app-url.com` with the actual **Render deployment URL**.
-- **Optional**: Add more details like performance metrics, dataset sources, or architecture diagrams.
-
-🚀 **Now your `README.md` is complete and ready for GitHub!** 🎉
 

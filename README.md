@@ -30,7 +30,7 @@ sms-spam-classifier/
 ![Not Spam](Images/Not_Spam.png)
 
 ### Spam Example
-![Spam](Images/Span.png)
+![Spam](Images/Spam.png)
 
 ---
 
